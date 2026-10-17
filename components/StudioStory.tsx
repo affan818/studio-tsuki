@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 export default function StudioStory() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -133,14 +134,18 @@ export default function StudioStory() {
             </span>
           </a>
 
-          {/* Japanese moon character */}
+          {/* Japanese moon symbol image */}
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -right-1 bottom-0 hidden h-44 w-44 items-center justify-center rounded-full border border-[#BFAE93]/25 md:flex lg:-right-5 lg:h-52 lg:w-52"
           >
-            <span className="font-serif text-[100px] font-light text-[#D9CBB8]/20 lg:text-[120px]">
-              月
-            </span>
+            <Image
+              src="/images/tsuki-icon.png"
+              alt=""
+              width={150}
+              height={150}
+              className="h-50 w-50 object-contain opacity-30 lg:h-36 lg:w-36"
+            />
           </div>
         </div>
       </div>
