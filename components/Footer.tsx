@@ -58,7 +58,7 @@ export default function Footer() {
             className="group flex w-fit items-center"
           >
             <Image
-              src="/images/logo.png"
+              src="/images/logo-second.png"
               alt="Studio Tsuki"
               width={160}
               height={60}

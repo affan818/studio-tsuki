@@ -14,7 +14,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" aria-label="Studio Tsuki home">
           <Image
-            src="/images/logo.png"
+            src="/images/logo-second.png"
             alt="Studio Tsuki"
             width={130}
             height={80}
