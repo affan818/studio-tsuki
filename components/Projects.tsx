@@ -56,7 +56,8 @@ export default function Projects() {
             </p>
 
             <a
-              href="#contact"
+              href="tel:+918692887850"
+              aria-label="Call Studio Tsuki"
               className="group inline-flex shrink-0 items-center gap-3 border-b border-[#BFAE93]/60 pb-2 text-[15px] tracking-[0.16em] text-[#D9CBB8] transition-colors duration-300 hover:text-white"
             >
               LET&apos;S TALK

@@ -122,7 +122,9 @@ export default function Services() {
           </p>
 
           <a
-            href="#contact"
+            href="https://wa.me/918692887850?text=Hi%20Studio%20Tsuki%2C%20I%27d%20like%20to%20discuss%20my%20interior%20design%20project."
+            target="_blank"
+            rel="noopener noreferrer"
             className="group mt-7 inline-flex min-h-11 items-center gap-4 bg-[#D9CBB8] px-5 py-3 text-[10px] font-medium tracking-[0.16em] text-[#101820] uppercase transition-colors duration-300 hover:bg-[#F1EAE1]"
           >
             Discuss Your Project
