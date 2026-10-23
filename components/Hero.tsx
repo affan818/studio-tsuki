@@ -144,20 +144,25 @@ export default function Hero() {
         className="relative z-10 mx-auto w-full max-w-[1440px] px-6 pb-16 pt-36 md:px-12 lg:px-20"
       >
         <p className="mb-6 text-[10px] tracking-[0.28em] text-[#D9CBB8] md:text-xs">
-          STUDIO TSUKI · INTERIOR DESIGN
+          INTERIOR DESIGN STUDIO · MUMBAI, INDIA
         </p>
 
         <h1 className="max-w-3xl font-serif text-5xl leading-[1.08] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-[88px]">
-          Thoughtfully
-          <br />
-          Designed.
+          Thoughtfully Designed.
           <br />
           <span className="text-[#D9CBB8]">Timeless Living.</span>
         </h1>
 
         <p className="mt-7 max-w-lg text-sm leading-7 text-white/70 md:text-base">
-          Creating calm, considered interiors where functionality, natural
-          materials, and timeless design come together.
+          We create thoughtful, timeless interiors that bring together
+          functionality, natural materials and understated elegance. From
+          contemporary Mumbai apartments and private residences to offices,
+          cafés and retail spaces, every project is shaped around the people who
+          experience it.
+          <br />
+          Rooted in simplicity and inspired by the quiet beauty of the moon,
+          Studio Tsuki designs spaces that feel personal, harmonious and made to
+          last.
         </p>
 
         <div className="mt-9 flex flex-wrap items-center gap-5">
@@ -187,7 +192,7 @@ export default function Hero() {
 
       {/* Bottom label */}
       <div className="pointer-events-none absolute bottom-8 right-8 z-10 hidden text-[10px] tracking-[0.3em] text-white/50 sm:block">
-        THOUGHTFULLY DESIGNED · TIMELESS LIVING
+        Spaces designed with intention. Made for the way you live.
       </div>
     </section>
   );

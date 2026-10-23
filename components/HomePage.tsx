@@ -12,6 +12,7 @@ import Process from "./Process";
 import Testimonial from "./Testimonial";
 import ContactCTA from "./ContactCTA";
 import Footer from "./Footer";
+import FAQ from "./FAQ";
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,6 +31,7 @@ export default function HomePage() {
         <Services />
         <Process />
         <Testimonial />
+        <FAQ/>
         <ContactCTA />
         <Footer />
       </main>

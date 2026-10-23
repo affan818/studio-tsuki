@@ -35,3 +35,63 @@ body {
   font-weight: 400;
   line-height: 1;
 }
+
+/* faq css  */
+
+.faq-lines {
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.faq-lines-one {
+  animation: faqArchitectureFlow 24s ease-in-out infinite alternate;
+}
+
+.faq-lines-two {
+  animation: faqArchitectureFlowReverse 30s ease-in-out infinite alternate;
+}
+
+.faq-highlight {
+  animation: faqHighlightFlow 12s ease-in-out infinite alternate;
+}
+
+@keyframes faqArchitectureFlow {
+  from {
+    transform: translate3d(0, -12px, 0);
+  }
+
+  to {
+    transform: translate3d(-24px, 18px, 0);
+  }
+}
+
+@keyframes faqArchitectureFlowReverse {
+  from {
+    transform: translate3d(12px, 8px, 0);
+  }
+
+  to {
+    transform: translate3d(-14px, -16px, 0);
+  }
+}
+
+@keyframes faqHighlightFlow {
+  from {
+    opacity: 0.25;
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    opacity: 0.8;
+    stroke-dashoffset: -100;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-lines-one,
+  .faq-lines-two,
+  .faq-highlight {
+    animation: none !important;
+  }
+}

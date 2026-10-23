@@ -13,35 +13,35 @@ const phases = [
     number: "01",
     title: "Discover",
     description:
-      "We listen to your needs, lifestyle, and the feeling you want your space to hold.",
+      "We understand your space, location, lifestyle, functional requirements, aesthetic preferences and budget.",
     image: "/images/discover.webp",
   },
   {
     number: "02",
     title: "Envision",
     description:
-      "Ideas take shape through thoughtful concepts, moodboards, and material palettes.",
+      "We establish the creative direction through concepts, moodboards, colour palettes and material references.",
     image: "/images/envision.webp",
   },
   {
     number: "03",
     title: "Design",
     description:
-      "We refine every detail, balancing form, function, and natural materials.",
+      "We develop the proposed layouts, furniture arrangements, materials and design details according to the agreed brief.",
     image: "/images/design.webp",
   },
   {
     number: "04",
     title: "Refine",
     description:
-      "Every finish and proportion is carefully considered to create visual harmony.",
+      "We review the design together and refine the details. Where included, drawings and 3D visualisations help communicate the proposed space.",
     image: "/images/refine.webp",
   },
   {
     number: "05",
     title: "Realize",
     description:
-      "The vision comes together as a meaningful space designed around you.",
+      "For projects that include execution, the approved design moves into implementation according to the agreed scope, schedule and responsibilities.",
     image: "/images/realize.webp",
   },
 ];
@@ -112,22 +112,22 @@ export default function Process() {
         <div className="process-top mb-12 grid gap-5 md:mb-14 md:grid-cols-[1.2fr_0.8fr] md:items-center">
           <div>
             <p className="mb-4 text-[10px] font-medium tracking-[0.24em] text-[#BFAE93] uppercase">
-              The Tsuki Journey
+              FROM FIRST IDEA TO FINISHED SPACE
             </p>
 
             <h2 className="max-w-2xl text-3xl leading-[1.18] font-light tracking-[-0.035em] text-[#F1EAE1] sm:text-4xl md:text-5xl">
-              From vision to
+              A Considered Journey,
               <span className="font-serif italic text-[#D9CBB8]">
                 {" "}
-                something timeless.
+                Every Step of the Way
               </span>
             </h2>
           </div>
 
           <p className="max-w-md text-xs leading-6 text-[#B0B5BA] sm:text-sm md:justify-self-end">
-            Every meaningful space evolves through a series of thoughtful
-            decisions. Our process brings your vision to life, one considered
-            detail at a time.
+            Great interiors develop through collaboration, careful planning and
+            attention to detail. Our process brings structure and clarity to
+            your design journey.
           </p>
         </div>
 

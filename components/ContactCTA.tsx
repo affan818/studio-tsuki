@@ -109,7 +109,7 @@ export default function ContactCTA() {
     event.preventDefault();
 
     // Replace with your real WhatsApp number, including country code.
-    const whatsappNumber = "918692887850";
+    const whatsappNumber = "919082028042";
 
     const message = [
       "Hello Studio Tsuki! I'd like to discuss an interior design project.",
@@ -169,11 +169,11 @@ export default function ContactCTA() {
           <div className="cta-content flex flex-col items-start justify-center px-5 py-16 sm:px-8 md:py-20 lg:px-16 xl:px-24">
             <p className="mb-5 flex items-center gap-3 text-[10px] tracking-[0.28em] text-[#D9CBB8] uppercase">
               <span className="h-px w-8 bg-[#BFAE93]" />
-              Your Next Chapter
+              YOUR SPACE, YOUR STORY
             </p>
 
             <h2 className="max-w-2xl text-4xl leading-[1.12] font-light tracking-[-0.045em] sm:text-5xl lg:text-6xl">
-              Let's create a space
+              Let's Create a Space
               <br />
               that feels{" "}
               <span className="font-serif italic text-[#D9CBB8]">
@@ -182,9 +182,12 @@ export default function ContactCTA() {
             </h2>
 
             <p className="mt-6 max-w-lg text-sm leading-7 text-white/70 sm:text-base">
-              Every meaningful space begins with a conversation. Tell us what
-              you imagine, and let's shape something thoughtful, personal, and
-              timeless together.
+              Whether you are planning a new home, refreshing an apartment or
+              shaping an environment for your business, Studio Tsuki brings a
+              thoughtful approach to design, materials and functionality.
+              <br /> <br />
+              Tell us about your space, your ideas and how you want it to feel.
+              Let's explore a design direction that brings your vision to life.
             </p>
 
             <button
@@ -204,7 +207,7 @@ export default function ContactCTA() {
             </button>
 
             <p className="mt-5 text-[10px] tracking-wide text-white/50">
-              Thoughtfully designed. Timelessly lived.
+              Designing spaces that feel like home.
             </p>
           </div>
 

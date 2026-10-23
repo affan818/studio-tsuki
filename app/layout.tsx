@@ -5,9 +5,9 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Studio Tsuki | Timeless Interior Design Studio",
+  title: "Studio Tsuki | Interior Design Studio in Mumbai",
   description:
-    "Discover Studio Tsuki, a boutique interior design studio creating timeless residential and commercial interiors inspired by Japandi, minimalism, and natural materials.",
+    "Discover Studio Tsuki, an interior design studio in Mumbai creating timeless homes and commercial spaces through thoughtful planning, natural materials and personalised design.",
   keywords: [
     "Studio Tsuki",
     "interior design studio",

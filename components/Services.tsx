@@ -105,24 +105,22 @@ export default function Services() {
         <div className="services-intro flex flex-col items-start md:sticky md:top-28 md:h-fit md:self-start">
           <p className="mb-5 flex items-center gap-3 text-[10px] tracking-[0.28em] text-[#BFAE93] uppercase">
             <span className="h-px w-7 bg-[#BFAE93]" />
-            Thoughtfully Curated
+            THOUGHTFULLY CURATED SERVICES
           </p>
 
           <h2 className="max-w-lg text-4xl leading-[1.15] font-light tracking-[-0.04em] text-[#F1EAE1] sm:text-5xl lg:text-[3.5rem]">
-            Spaces shaped
-            <br />
-            by{" "}
-            <span className="font-serif italic text-[#D9CBB8]">intention.</span>
+            Interior Design for the Way{" "}
+            <span className="font-serif italic text-[#D9CBB8]">
+              You Live and Work.
+            </span>
           </h2>
 
           <p className="mt-6 max-w-md text-sm leading-7 text-[#AAB0B6]">
-            From the first spatial concept to the finishing touches, we bring
-            together thoughtful design, natural materials, and timeless
-            simplicity to create spaces that feel like you.
+        From a carefully planned home to a distinctive commercial environment, Studio Tsuki develops interior design solutions around your space, lifestyle and aspirations.
           </p>
 
           <a
-            href="https://wa.me/918692887850?text=Hi%20Studio%20Tsuki%2C%20I%27d%20like%20to%20discuss%20my%20interior%20design%20project."
+            href="https://wa.me/919082028042?text=Hi%20Studio%20Tsuki%2C%20I%27d%20like%20to%20discuss%20my%20interior%20design%20project."
             target="_blank"
             rel="noopener noreferrer"
             className="group mt-7 inline-flex min-h-11 items-center gap-4 bg-[#D9CBB8] px-5 py-3 text-[10px] font-medium tracking-[0.16em] text-[#101820] uppercase transition-colors duration-300 hover:bg-[#F1EAE1]"

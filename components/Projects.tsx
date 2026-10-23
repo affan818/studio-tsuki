@@ -41,22 +41,23 @@ export default function Projects() {
         <div className="mb-12 flex flex-col justify-between gap-6 md:mb-16 md:flex-row md:items-end">
           <div>
             <p className="mb-4 text-[10px] tracking-[0.3em] text-[#BFAE93] md:text-xs">
-              SELECTED WORKS
+              OUR PORTFOLIO
             </p>
 
             <h2 className="font-serif text-4xl leading-tight text-white sm:text-5xl md:text-6xl">
-              Spaces With a Story.
+              Every Space Has a Story
             </h2>
           </div>
 
-          <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-end sm:justify-between md:max-w-[460px] md:gap-8">
+          <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-end sm:justify-between md:max-w-[700px] md:gap-8">
             <p className="max-w-sm text-sm leading-7 text-white/60">
-              Thoughtfully composed interiors shaped by natural materials,
-              considered details, and the way people live.
+              We create thoughtful residential and commercial interiors by
+              balancing light, materials, proportion, and purpose to craft
+              spaces that feel personal, welcoming, and timeless.
             </p>
 
             <a
-              href="tel:+918692887850"
+              href="tel:+919082028042"
               aria-label="Call Studio Tsuki"
               className="group inline-flex shrink-0 items-center gap-3 border-b border-[#BFAE93]/60 pb-2 text-[15px] tracking-[0.16em] text-[#D9CBB8] transition-colors duration-300 hover:text-white"
             >

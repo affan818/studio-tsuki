@@ -12,7 +12,7 @@ const principles = [
     number: "01",
     title: "Intentional Design",
     description:
-      "Every detail has a purpose. We create spaces that feel considered, balanced, and deeply personal.",
+      "Every detail serves a purpose. We create thoughtful interior layouts that balance functionality, comfort, and timeless aesthetics for modern Indian homes.",
     icon: Compass,
     tag: "THE FOUNDATION",
   },
@@ -20,7 +20,7 @@ const principles = [
     number: "02",
     title: "Natural Harmony",
     description:
-      "Honest materials, organic textures, and a thoughtful palette bring a quiet sense of calm.",
+      "We blend natural wood, tactile textures, and earthy palettes to create warm, harmonious interiors inspired by Japandi and minimalist design.",
     icon: Layers3,
     tag: "MATERIALS & TEXTURE",
   },
@@ -28,15 +28,15 @@ const principles = [
     number: "03",
     title: "Timeless Simplicity",
     description:
-      "Beyond passing trends, we focus on enduring forms and spaces that feel beautiful for years.",
+      "Beyond fleeting trends, we design elegant, minimalist interiors with enduring materials, balanced proportions, and lasting appeal.",
     icon: Sparkles,
     tag: "TIMELESS BY NATURE",
   },
   {
     number: "04",
-    title: "Personal Meaning",
+    title: "Personalised Living",
     description:
-      "Your rituals, rhythms, and way of living shape a space that feels unmistakably yours.",
+      "Your lifestyle, routines, and aspirations shape every decision, creating personalised home interiors that feel authentic, comfortable, and uniquely yours.",
     icon: Orbit,
     tag: "MADE FOR YOU",
   },
@@ -141,22 +141,22 @@ export default function Philosophy() {
           <div>
             <p className="philosophy-eyebrow mb-5 flex items-center gap-3 text-[10px] tracking-[0.32em] text-[#D9CBB8] uppercase">
               <span className="h-px w-8 bg-[#BFAE93]" />
-              The Tsuki Philosophy
+              THE TSUKI PHILOSOPHY
             </p>
 
-            <h2 className="philosophy-heading max-w-xl text-4xl leading-[1.12] font-light tracking-[-0.04em] text-white sm:text-5xl md:text-6xl">
-              Design that feels
+            <h2 className="philosophy-heading max-w-xl text-4xl leading-[1.02] font-light tracking-[-0.04em] text-white sm:text-5xl md:text-6xl">
+              Beauty in Simplicity.
               <br />
               <span className="font-serif italic text-[#D9CBB8]">
-                like coming home.
+                Meaning in Every Detail.
               </span>
             </h2>
           </div>
 
           <p className="philosophy-intro max-w-md text-sm leading-7 text-[#B0B5BA] md:justify-self-end md:text-base">
-            We believe the most beautiful spaces do more than look good. They
-            bring balance to everyday life, reflect who you are, and make room
-            for what matters.
+            We believe thoughtful interior design is not about adding more. It
+            is about understanding what matters and creating a space where every
+            element serves a purpose.
           </p>
         </div>
 

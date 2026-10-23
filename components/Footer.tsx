@@ -10,10 +10,11 @@ import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 const navigation = [
-  { label: "About", href: "#about" },
-  { label: "Work", href: "#projects" },
-  { label: "Services", href: "#services" },
-  { label: "Process", href: "#process" },
+  { label: "About Studio Tsuki", href: "#about" },
+  { label: "Our Projects", href: "#projects" },
+  { label: "Design Philosophy", href: "#philosophy" },
+  { label: "Our Services", href: "#services" },
+  { label: "Our Process", href: "#process" },
 ];
 
 export default function Footer() {
