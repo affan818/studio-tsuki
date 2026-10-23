@@ -145,7 +145,9 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
         delay: 0.35,
       });
 
-    return () => timeline.kill();
+    return () => {
+      timeline.kill();
+    };
   }, [onComplete]);
 
   return (
