@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Noto_Serif_JP } from "next/font/google";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -43,7 +43,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -52,6 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className={`min-h-full flex flex-col ${japaneseFont.variable}`}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
