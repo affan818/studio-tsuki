@@ -8,7 +8,7 @@ const projects = [
     number: "01",
     title: "The Quiet Residence",
     category: "Residential Interior",
-    location: "Mumbi, Maharashtra",
+    location: "Mumbai, Maharashtra",
     image: "/images/portfolio-img-1.png",
     alt: "Luxury Japandi living room with natural wood and stone",
   },

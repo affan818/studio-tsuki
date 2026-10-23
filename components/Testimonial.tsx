@@ -55,22 +55,6 @@ export default function Testimonial() {
         ease: "power3.out",
         scrollTrigger: undefined,
       });
-
-      gsap.from(".testimonial-label", {
-        y: 15,
-        opacity: 0,
-        duration: 0.7,
-        stagger: 0.12,
-        ease: "power2.out",
-      });
-
-      gsap.from(".testimonial-heading", {
-        y: 24,
-        opacity: 0,
-        duration: 0.9,
-        delay: 0.12,
-        ease: "power3.out",
-      });
     }, section);
 
     return () => ctx.revert();
