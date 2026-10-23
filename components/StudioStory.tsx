@@ -97,7 +97,7 @@ export default function StudioStory() {
                     : "translate-y-0 opacity-100"
                 }`}
               >
-                Moon.
+                You.
               </span>
 
               <span
@@ -108,20 +108,35 @@ export default function StudioStory() {
                     : "-translate-y-2 opacity-0"
                 }`}
               >
-                月
+                Moon.
               </span>
             </span>
           </h2>
 
           <p className="mt-8 max-w-lg text-sm leading-7 tracking-wide text-white/75 md:text-[15px]">
-           The Japanese word “Tsuki” (月) means moon, a symbol of serenity, balance and timeless beauty. Inspired by this quiet elegance, Studio Tsuki approaches interior design as a way to create spaces that feel considered, personal and connected to everyday life.
+            The Japanese word “Tsuki” (月) means moon, a symbol of serenity,
+            balance and timeless beauty. Inspired by this quiet elegance, Studio
+            Tsuki approaches interior design as a way to create spaces that feel
+            considered, personal and connected to everyday life.
           </p>
 
           <p className="mt-5 max-w-lg text-sm leading-7 tracking-wide text-white/75 md:text-[15px]">
-  As a boutique interior design studio serving Mumbai and clients across India, we bring together the warmth of natural materials, the simplicity of minimalism, the harmony of Japandi and the imperfect beauty of wabi-sabi.
+            As a boutique interior design studio serving Mumbai and clients
+            across India, we bring together the warmth of natural materials, the
+            simplicity of minimalism, the harmony of Japandi and the imperfect
+            beauty of wabi-sabi.
           </p>
-<p className="mt-5 max-w-lg text-sm leading-7 tracking-wide text-white/75 md:text-[15px]">Our approach balances visual refinement with the practical realities of modern Indian living. We consider spatial efficiency, storage, lighting, material selection and individual lifestyles to create interiors that are as functional as they are beautiful.</p>
-<p className="mt-5 max-w-lg text-sm leading-7 tracking-wide text-white/75 md:text-[15px]">Whether you are planning a new apartment, reimagining your family home or developing a commercial space, we begin by understanding your vision and translating it into a cohesive design.</p>
+          <p className="mt-5 max-w-lg text-sm leading-7 tracking-wide text-white/75 md:text-[15px]">
+            Our approach balances visual refinement with the practical realities
+            of modern Indian living. We consider spatial efficiency, storage,
+            lighting, material selection and individual lifestyles to create
+            interiors that are as functional as they are beautiful.
+          </p>
+          <p className="mt-5 max-w-lg text-sm leading-7 tracking-wide text-white/75 md:text-[15px]">
+            Whether you are planning a new apartment, reimagining your family
+            home or developing a commercial space, we begin by understanding
+            your vision and translating it into a cohesive design.
+          </p>
           <a
             href="#projects"
             className="group relative mt-10 inline-flex items-center gap-5 border-b border-[#BFAE93]/60 pb-3 text-[10px] tracking-[0.2em] text-[#D9CBB8] transition-colors duration-300 hover:text-white md:text-xs"
