@@ -13,6 +13,7 @@ import Testimonial from "./Testimonial";
 import ContactCTA from "./ContactCTA";
 import Footer from "./Footer";
 import FAQ from "./FAQ";
+import WhyChooseTsuki from "./WhyChooseTsuki";
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,8 +31,9 @@ export default function HomePage() {
         <Philosophy />
         <Services />
         <Process />
+        <WhyChooseTsuki />
         <Testimonial />
-        <FAQ/>
+        <FAQ />
         <ContactCTA />
         <Footer />
       </main>
