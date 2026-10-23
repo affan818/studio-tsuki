@@ -21,9 +21,16 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
     const symbol = symbolRef.current;
     const brand = brandRef.current;
 
-    if (!loader || !emblem || !strokes || !symbol || !brand) return;
+    if (!loader || !emblem || !strokes || !symbol || !brand) {
+      onComplete();
+      return;
+    }
 
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const reduceMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    if (reduceMotion) {
       onComplete();
       return;
     }
@@ -43,13 +50,12 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
 
     gsap.set([symbol, brand], {
       autoAlpha: 0,
-      y: 10,
+      y: 8,
     });
 
     gsap.set(emblem, {
       scale: 0.98,
       transformOrigin: "50% 50%",
-      force3D: true,
     });
 
     const timeline = gsap.timeline({
@@ -74,7 +80,7 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
           duration: 0.35,
           ease: "power2.out",
         },
-        "-=0.28",
+        "-=0.3",
       )
       .to(
         emblem,
@@ -102,49 +108,6 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
         delay: 0.12,
       });
 
-    timeline
-      .to(paths, {
-        strokeDashoffset: 0,
-        duration: 1.25,
-        stagger: 0.09,
-        ease: "power2.inOut",
-      })
-      .to(
-        symbol,
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.65,
-          ease: "power3.out",
-        },
-        "-=0.35",
-      )
-      .to(
-        emblem,
-        {
-          scale: 1,
-          duration: 0.65,
-          ease: "power2.out",
-        },
-        "<",
-      )
-      .to(
-        brand,
-        {
-          autoAlpha: 1,
-          y: 0,
-          duration: 0.6,
-          ease: "power2.out",
-        },
-        "-=0.2",
-      )
-      .to(loader, {
-        autoAlpha: 0,
-        duration: 0.65,
-        ease: "power2.inOut",
-        delay: 0.35,
-      });
-
     return () => {
       timeline.kill();
     };
@@ -161,7 +124,7 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
         <svg
           ref={emblemRef}
           viewBox="0 0 240 390"
-          className="h-[min(58vh,430px)] w-auto max-w-[72vw] overflow-visible will-change-transform"
+          className="h-[min(58vh,430px)] w-auto max-w-[72vw] overflow-visible"
           aria-hidden="true"
         >
           <defs>
@@ -185,7 +148,7 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
             strokeLinecap="round"
             strokeLinejoin="round"
           >
-            {/* Fine vertical line and top dot */}
+            {/* Top vertical line and dot */}
             <path
               className="emblem-stroke"
               d="M120 8 L120 54"
@@ -234,7 +197,7 @@ export default function ZenLoader({ onComplete }: ZenLoaderProps) {
               strokeWidth="0.7"
             />
 
-            {/* Bottom dot and vertical line */}
+            {/* Bottom dot and line */}
             <circle
               className="emblem-stroke"
               cx="120"
