@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Studio Tsuki | Interior Design Studio in Mumbai",
   description:
     "Discover Studio Tsuki, an interior design studio in Mumbai creating timeless homes and commercial spaces through thoughtful planning, natural materials and personalised design.",
+
   keywords: [
     "Studio Tsuki",
     "interior design studio",
@@ -24,6 +25,9 @@ export const metadata: Metadata = {
       "Thoughtfully designed, timeless interiors inspired by simplicity, natural materials, and the quiet beauty of the moon.",
     type: "website",
     siteName: "Studio Tsuki",
+  },
+  verification: {
+    google: "e4gMHS1LuFBqTasmN_UUOP5_FsPnStvPZwX0Qa8kVtM",
   },
 };
 
