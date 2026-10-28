@@ -152,7 +152,7 @@ export default function ContactCTA() {
       >
         <div aria-hidden="true" className="absolute inset-0 -z-20">
           <Image
-            src="/images/contact-cta.png"
+            src="/images/contact-cta.webp"
             alt="arcitecture"
             fill
             sizes="100vw"

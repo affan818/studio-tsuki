@@ -9,7 +9,7 @@ const projects = [
     title: "The Quiet Residence",
     category: "Residential Interior",
     location: "Mumbai, Maharashtra",
-    image: "/images/portfolio-img-1.png",
+    image: "/images/portfolio-img.png",
     alt: "Luxury Japandi living room with natural wood and stone",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     title: "The Still House",
     category: "Hospitality & Café",
     location: "Nagpur, Maharashtra",
-    image: "/images/portfolio-img-2.png",
+    image: "/images/portfolio-img-1.png",
     alt: "Warm minimalist café with natural materials",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     title: "The Balance Studio",
     category: "Commercial Interior",
     location: "Hydrabad, Telangana",
-    image: "/images/portfolio-img-3.png",
+    image: "/images/portfolio-img-2.png",
     alt: "Contemporary minimalist office interior",
   },
 ];

@@ -11,45 +11,39 @@ gsap.registerPlugin(ScrollTrigger);
 const services = [
   {
     number: "01",
-    title: "Residential Interiors",
-    image: "/images/portfolio-img-1.png",
+    title: "Executive Office Design",
+    image: "/images/best-architecture-designer.webp",
     alt: "Serene luxury residential interior with natural materials",
   },
   {
     number: "02",
-    title: "Living Spaces",
-    image: "/images/portfolio-img-1.png",
+    title: "Modern Office Interiors",
+    image: "/images/best-interior-designer-in-mumbai.webp",
     alt: "Minimalist Japandi living room with warm natural textures",
   },
   {
     number: "03",
-    title: "Space Planning",
-    image: "/images/portfolio-img-1.png",
+    title: "Office Workstation Design",
+    image: "/images/office-interior.webp",
     alt: "Architectural floor plans and interior design drawings",
   },
   {
     number: "04",
-    title: "Material Selection",
+    title: "Luxury Office Interiors",
     image: "/images/portfolio-img-1.png",
     alt: "Curated natural stone, wood and neutral material samples",
   },
   {
     number: "05",
-    title: "Lighting Design",
-    image: "/images/portfolio-img-1.png",
+    title: "Office Lighting Design",
+    image: "/images/portfolio-img.png",
     alt: "Soft natural light illuminating a refined minimalist interior",
   },
   {
     number: "06",
-    title: "Bedroom Design",
-    image: "/images/portfolio-img-1.png",
+    title: "Private Office Design",
+    image: "/images/portfolio-img-2.png",
     alt: "Calm minimalist bedroom with linen bedding and warm lighting",
-  },
-  {
-    number: "07",
-    title: "Styling & Decor",
-    image: "/images/portfolio-img-1.png",
-    alt: "Minimalist ceramic vase with branches in a warm neutral interior",
   },
 ];
 
@@ -116,7 +110,9 @@ export default function Services() {
           </h2>
 
           <p className="mt-6 max-w-md text-sm leading-7 text-[#AAB0B6]">
-        From a carefully planned home to a distinctive commercial environment, Studio Tsuki develops interior design solutions around your space, lifestyle and aspirations.
+            From a carefully planned home to a distinctive commercial
+            environment, Studio Tsuki develops interior design solutions around
+            your space, lifestyle and aspirations.
           </p>
 
           <a
