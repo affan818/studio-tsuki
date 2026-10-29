@@ -6,27 +6,27 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     number: "01",
-    title: "The Quiet Residence",
-    category: "Residential Interior",
+    title: "The Focus Workspace",
+    category: "Office Interior Design",
     location: "Mumbai, Maharashtra",
     image: "/images/portfolio-img.png",
-    alt: "Luxury Japandi living room with natural wood and stone",
+    alt: "Modern office interior with wooden workstations, glass partitions and warm LED lighting.",
   },
   {
     number: "02",
-    title: "The Still House",
-    category: "Hospitality & Café",
+    title: "The Executive Suite",
+    category: "Executive Office & Meeting Room",
     location: "Nagpur, Maharashtra",
     image: "/images/portfolio-img-1.png",
-    alt: "Warm minimalist café with natural materials",
+    alt: "Executive office meeting room with a long wooden conference table, black chairs and warm recessed lighting.",
   },
   {
     number: "03",
-    title: "The Balance Studio",
-    category: "Commercial Interior",
+    title: "The Director’s Office",
+    category: "Private Executive Office Design",
     location: "Hydrabad, Telangana",
     image: "/images/portfolio-img-2.png",
-    alt: "Contemporary minimalist office interior",
+    alt: "Private executive office with a wooden desk, leather chair, textured walls and warm accent lighting.",
   },
 ];
 
