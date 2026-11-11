@@ -14,7 +14,7 @@ import ContactCTA from "./ContactCTA";
 import Footer from "./Footer";
 import FAQ from "./FAQ";
 import WhyChooseTsuki from "./WhyChooseTsuki";
-
+import GalleryPage from "./gallery/GalleryPage";
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
   const handleLoaderComplete = useCallback(() => {
@@ -31,6 +31,7 @@ export default function HomePage() {
         <Philosophy />
         <Services />
         <Process />
+        <GalleryPage />
         <WhyChooseTsuki />
         <Testimonial />
         <FAQ />
